@@ -1,36 +1,3 @@
-/* This is the only file you will be editing.
- * - Copyright of Starter Code: Prof. Kevin Andrea, George Mason University.  All Rights Reserved
- * - Copyright of Student Code: You!  
- * - Restrictions on Student Code: Do not post your code on any public site (eg. Github).
- * -- Feel free to post your code on a PRIVATE Github and give interviewers access to it.
- * -- You are liable for the protection of your code from others.
- * - ASCII Art Adapted from Regular Calculator by Jeremy J. Olson
- * -- Original File: https://www.asciiart.eu/electronics/calculators
- * - Date: Aug 2023
- */
-
-/* CS367 Project 2, Fall Semester, 2023
- * Fill in your Name, GNumber, and Section Number in the following comment fields
- * Name: Aidan Grupac
- * GNumber: G01367405
- * Section Number: CS367-004             (Replace the _ with your section number)
- */
-
-/* _____________________
-  |  _________________  |
-  | |     MUAN    3.25| |
-  | |_________________| |
-  |  ___ ___ ___   ___  |
-  | | 7 | 8 | 9 | | + | |
-  | |___|___|___| |___| |
-  | | 4 | 5 | 6 | | - | |
-  | |___|___|___| |___| |
-  | | 1 | 2 | 3 | | x | |
-  | |___|___|___| |___| |
-  | | . | 0 | = | | V | |
-  | |___|___|___| |___| |
-  |_____________________|
- */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,9 +13,6 @@
 #define BIAS 7
 #define DENORM_E -6
 
-// Feel free to add many Helper Functions, Consts, and Definitions!
-
-// ----------Public API Functions (write these!)-------------------
 
 //helper function - determines if minifp is nan
 int is_nan(minifp_s val){
